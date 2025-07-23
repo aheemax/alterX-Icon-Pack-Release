@@ -1,6 +1,6 @@
 # alterX 图标包
 
-- alterX 基于 CandyBar 开发。
+- alterX 基于 [CandyBar](https://github.com/zixpo/candybar/) 开发。
 
 - 本图标包中的图标来源于公开渠道，包括但不限于官方网站、公共资源及参考原生图标绘制或本人创作绘制。
 
