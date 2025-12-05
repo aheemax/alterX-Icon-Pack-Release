@@ -38,10 +38,10 @@
 - 位图请尽量上传PSD，如无PSD请尽量上传PNG、WEBP等格式且主体明确背景透明，图标主体大小416×416
 ***
 ### 请作者喝杯咖啡吧
-![微信捐赠](app/src/main/assets/donate_wechat_pay.webp)
+![微信捐赠](donate_wechat_pay.webp)
 
 ------------
 
 
 ### 图标包QQ群：交流、反馈、意见、图标适配
-![QQ群](app/src/main/assets/link_qq.webp)
+![QQ群](link_qq.webp)
