@@ -1,21 +1,18 @@
 # alterX 图标包
 
-- alterX 基于 [CandyBar](https://github.com/zixpo/candybar/) 开发。
-
 - 本图标包中的图标来源于公开渠道，包括但不限于官方网站、公共资源及参考原生图标绘制或本人创作绘制。
 
 - 大部分图标是品牌的注册商标或受版权保护的作品。本人创作绘制的图标版权归本人所有。
 
-- 如果您发现任何本图标包的图标可能侵犯了所有者的权益，请立即通知我们（heemax@qq.com），我们将尽快采取措施。
+- 如果您发现任何本图标包的图标可能侵犯了所有者的权益，请立即通知我们，我们将尽快采取措施。
 
 ***
 ## 关于图标包的使用
 
 * 本图标包共四个版本：
 
-  * **alterX | 幻变图标包**色调比较深，背景没有渐变。
 
-  * **alterXx | 幻变图标包×轻**色调比较浅，背景有渐变。
+  * **alterXx | 幻变图标包**
 
   * **alterX White | 幻变图标包×清朗**
 
@@ -36,10 +33,10 @@
 - 位图请尽量上传PSD，如无PSD请尽量上传PNG、WEBP等格式且主体明确背景透明，图标主体大小416×416
 ***
 ### 请作者喝杯咖啡吧
-![](https://storage.tally.so/11be90eb-03f0-475d-844b-89c391ece4e3/zzf.webp)
+![微信捐赠](app/src/main/assets/donate_wechat_pay.webp)
 
 ------------
 
 
 ### 图标包QQ群：交流、反馈、意见、图标适配
-![](https://storage.tally.so/019c8667-555c-4ef5-89a3-73526bf6b9bd/qqq.webp)
+![QQ群](app/src/main/assets/link_qq.webp)
