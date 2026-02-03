@@ -1,7 +1,7 @@
 {
   "changelogs": [
     {
-      "appVersion": "1.3.3",
+      "version": "1.3.3",
       "date": "2024-03-20",
       "changes": [
         "新增：版本更新检测功能",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "appVersion": "1.3",
+      "version": "1.3",
       "date": "2024-02-15",
       "changes": [
         "新增：支持更多第三方启动器",
