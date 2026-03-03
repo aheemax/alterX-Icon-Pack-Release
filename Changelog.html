@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <title>更新日志 & 版本历史</title>
+    <style>
+        :root {
+            --bg-color: #FFFFFF;
+            --text-primary: #333333;
+            --text-strong: #000000;
+            --text-muted: #666666;
+            --border-color: #EEEEEE;
+            --accent-color: #007AFF;
+            --card-bg: rgba(150, 150, 150, 0.05);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --text-primary: #DDDDDD;
+                --text-strong: #FFFFFF;
+                --text-muted: #AAAAAA;
+                --border-color: #333333;
+                --card-bg: rgba(255, 255, 255, 0.05);
+            }
+        }
+
+        html, body {
+            margin: 0;
+            padding: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-color);
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            padding: 20px 0;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 20px;
+        }
+
+        h1 { font-size: 1.5rem; color: var(--text-strong); margin: 0; }
+        
+        /* 版本卡片样式 */
+        .version-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .version-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .version-title {
+            font-size: 1.1em;
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .version-date {
+            font-size: 0.9em;
+            color: var(--text-muted);
+        }
+
+        .app-tag {
+            display: inline-block;
+            font-size: 0.75em;
+            background: var(--border-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        ul { padding-left: 1.2rem; margin: 8px 0; }
+        li { margin-bottom: 6px; }
+        
+        .sub-info {
+            font-size: 0.9em;
+            color: var(--text-muted);
+            margin-left: 1.2rem;
+            list-style-type: square;
+        }
+
+        a { color: var(--accent-color); text-decoration: none; }
+
+        @media (min-width: 600px) {
+            body { padding: 32px; font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>更新日志</h1>
+        <p style="color: var(--text-muted); margin-top: 8px;">持续优化，感谢您的支持</p>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <div>
+                <span class="version-title">图标版本 v0.3</span>
+                <span class="app-tag">App v1.0</span>
+            </div>
+            <span class="version-date">2025/12/23</span>
+        </div>
+        <ul>
+            <li>图标增加至 <strong>1500+</strong></li>
+            <li>修改优化部分图标</li>
+            <li><strong>发布为收费版本</strong></li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <div>
+                <span class="version-title">图标版本 v0.2</span>
+                <span class="app-tag">App v1.0</span>
+            </div>
+            <span class="version-date">2025/12/05</span>
+        </div>
+        <ul>
+            <li>图标增加至 1398+</li>
+            <li>修改优化部分图标</li>
+            <li>简化版本：合并 alterX、alterXx</li>
+            <li>启用全新 APP 框架</li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.1</span>
+            <span class="version-date">2025/08/01</span>
+        </div>
+        <ul>
+            <li>图标增加至 1100+</li>
+            <li>修改优化部分图标</li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.0.9</span>
+            <span class="version-date">2025/05/01</span>
+        </div>
+        <ul>
+            <li>新增 <strong>alterXx</strong> 版：色调较浅、背景轻度渐变</li>
+            <li>图标增加至 900+</li>
+            <li>新增适配申请及贡献渠道</li>
+            <li style="list-style: none;"><a href="https://tally.so/r/mJGJJR">点击提交适配申请 &rarr;</a></li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.0.8</span>
+            <span class="version-date">2025/03/26</span>
+        </div>
+        <ul>
+            <li>图标增加至 700+</li>
+            <li>修复部分映射及重新整理映射</li>
+            <li>新增未适配图标蒙版
+                <div class="sub-info">注：部分启动器可能不支持蒙版功能</div>
+            </li>
+            <li>新增动态时钟
+                <div class="sub-info">注：具体支持情况视启动器而定</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.0.7</span>
+            <span class="version-date">2025/02/15</span>
+        </div>
+        <ul>
+            <li>完全重构图标包</li>
+            <li><strong>新增深色模式适配</strong></li>
+            <li>图标增加至 550 枚</li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.0.6 - v0.0.5</span>
+            <span class="version-date">2024/01</span>
+        </div>
+        <ul>
+            <li>累计修复及新增图标 223 枚</li>
+            <li>总数达到 444 枚</li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">v0.0.4</span>
+            <span class="version-date">2023/12/31</span>
+        </div>
+        <ul>
+            <li>尝试新实现方法
+                <div class="sub-info">注意：新方法可能存在颜色固定或错位 BUG，欢迎反馈</div>
+            </li>
+            <li>新增图标 50 枚</li>
+        </ul>
+    </div>
+
+    <div class="version-card">
+        <div class="version-header">
+            <span class="version-title">初期版本 (v0.0.1 - v0.0.3)</span>
+            <span class="version-date">2023/12</span>
+        </div>
+        <ul>
+            <li>实现动态日历与动态时钟样式</li>
+            <li>修复 Moto 启动器时钟不显示问题</li>
+            <li>初次发布，初始图标 152 枚</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
