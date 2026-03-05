@@ -2,8 +2,8 @@
   "appVersionCode": 260606,
   "appVersionName": "1.5-Dev",
   "iconVersionCode": 260606,
-  "iconName": "0.5-Dev",
-  "downloadUrl": "https://github.com/user/repo/releases/latest",
+  "iconVersionName": "0.5-Dev",
+  "downloadUrl": "",
   "updateLog": "1. 优化界面加载\n2. 修复已知问题",
   "forceUpdate": false
 }
