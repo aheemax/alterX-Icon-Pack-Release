@@ -3,7 +3,7 @@
   "appVersionName": "1.4-Dev",
   "iconVersionCode": 260306,
   "iconVersionName": "0.4",
-  "downloadUrl": "",
-  "updateLog": "1. 图标增加至1608+\n2. 修改优化部分图标\n3.UI及体验升级\n4.增加更新检查及提示",
+  "downloadUrl": "https://github.com/aheemax/alterX-Icon-Pack-Release/releases",
+  "updateLog": "1. 图标增加至1610+\n2. 修改优化部分图标\n3.UI及体验升级\n4.增加更新检查及提示",
   "forceUpdate": false
 }
